@@ -4,10 +4,10 @@ const Form = () => {
   const [name, setName] = useState("");
   const [animal, setAnimal] = useState("");
 
-  const handleSubmit = (event) => {event.preventDefault()
-  }
+  const handleSubmit = (event) => {
+    event.preventDefault();
+  };
 
-  
   return (
     <div>
       <form onSubmit={handleSubmit}>
